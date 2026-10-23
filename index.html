@@ -165,6 +165,7 @@
             display: inline-flex;
             align-items: center;
             transition: color 0.2s;
+            margin-top: auto;
         }
         .project-link:hover {
             color: #4c51bf;
@@ -203,7 +204,7 @@
         <h1>Привет, я Егор</h1>
         <p>Разработчик на Python из Волжского. Создаю сайты, CRM-системы и автоматизацию для малого бизнеса. Делаю сложные вещи простыми и удобными.</p>
         <div class="contact-buttons">
-            <a href="https://t.me/@EGOR455" class="btn btn-primary" target="_blank">Написать в Telegram</a>
+            <a href="https://t.me/EGOR455" class="btn btn-primary" target="_blank">Написать в Telegram</a>
             <a href="mailto:holodegor@icloud.com" class="btn btn-secondary">Написать на Email</a>
         </div>
     </header>
@@ -213,54 +214,81 @@
     
     <div class="projects-grid">
 
-        <!-- Карточка 1: My-Brew -->
-        <div class="project-card">
-            <!-- ЗДЕСЬ ССЫЛКА НА КАРТИНКУ -->
-            <img src="images/my-brew.png" alt="Сайт My-Brew" class="project-image">
+        <!-- Карточка 1: ИИ-Ассистент -->
+        <article class="project-card">
+            <img src="images/ai-notary.jpg" alt="ИИ-Ассистент для нотариуса" class="project-image">
             <div class="project-content">
                 <div class="project-tags">
                     <span class="tag">Python</span>
-                    <span class="tag">Flask</span>
-                    <span class="tag">HTML/CSS</span>
-                </div>
-                <h3 class="project-title">🍺 Сайт для пивоваров</h3>
-                <p class="project-desc">Каталог рецептов и калькулятор ингредиентов для домашних пивоваров. Помогает новичкам рассчитать плотность и IBU без сложных формул.</p>
-                <a href="https://www.my-brew.ru" target="_blank" class="project-link">Посмотреть сайт</a>
-            </div>
-        </div>
-
-        <!-- Карточка 2: CRM для автосервиса -->
-        <div class="project-card">
-            <!-- ЗДЕСЬ ССЫЛКА НА КАРТИНКУ -->
-            <img src="images/crm.png" alt="CRM для автосервиса" class="project-image">
-            <div class="project-content">
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">FastAPI</span>
+                    <span class="tag">AI</span>
                     <span class="tag">PostgreSQL</span>
                 </div>
-                <h3 class="project-title">🚗 CRM для автосервиса</h3>
-                <p class="project-desc">Система учёта заказов, клиентов и загрузки мастеров. Позволила владельцу отказаться от бумажных журналов и сократить потерю заявок на 30%.</p>
-                <!-- Если демо нет, можно сделать ссылку на скриншот в полном размере -->
-                <a href="images/crm.png" target="_blank" class="project-link">Посмотреть скриншоты</a>
+                <h3 class="project-title">🤖 ИИ-Ассистент для нотариуса</h3>
+                <p class="project-desc">Умное веб-приложение для автоматизации юридической рутины. Генерация документов по текстовому описанию с помощью нейросетей и расчет госпошлин.</p>
+                <a href="https://github.com/9zyf62hv6v-jpg/notary_ai" target="_blank" class="project-link">Посмотреть код</a>
             </div>
-        </div>
+        </article>
 
-        <!-- Карточка 3: Сайт нотариуса -->
-        <div class="project-card">
-            <!-- ЗДЕСЬ ССЫЛКА НА КАРТИНКУ -->
-            <img src="images/notary.png" alt="Сайт нотариуса" class="project-image">
+        <!-- Карточка 2: Дашборд Логистики -->
+        <article class="project-card">
+            <img src="images/logistics.jpg" alt="Дашборд Моя Логистика" class="project-image">
             <div class="project-content">
                 <div class="project-tags">
-                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">JS</span>
+                    <span class="tag">SQLite</span>
+                </div>
+                <h3 class="project-title">🚚 Дашборд «Моя Логистика»</h3>
+                <p class="project-desc">Система управления процессами пивоваренного завода. Учет клиентов, заказов, водителей, маршрутов и возвратной тары в реальном времени.</p>
+                <a href="https://github.com/9zyf62hv6v-jpg/---_---------" target="_blank" class="project-link">Посмотреть код</a>
+            </div>
+        </article>
+
+        <!-- Карточка 3: Планировщик Brew Clone -->
+        <article class="project-card">
+            <img src="images/brew-planner.jpg" alt="Веб-планировщик Brew Clone" class="project-image">
+            <div class="project-content">
+                <div class="project-tags">
+                    <span class="tag">Python</span>
                     <span class="tag">JavaScript</span>
                     <span class="tag">Адаптив</span>
                 </div>
-                <h3 class="project-title">⚖️ Сайт нотариуса</h3>
-                <p class="project-desc">Строгий, но современный сайт с каталогом услуг, ценами и формой записи на приём. Полностью адаптирован под мобильные устройства.</p>
-                <a href="ССЫЛКА_НА_САЙТ_НОТАРИУСА" target="_blank" class="project-link">Посмотреть сайт</a>
+                <h3 class="project-title">📊 Веб-планировщик Brew Clone</h3>
+                <p class="project-desc">Сервис для планирования производственных процессов. Интерактивная диаграмма Ганта, расчет ресурсов и управление складскими остатками.</p>
+                <a href="https://github.com/9zyf62hv6v-jpg/brew-clone" target="_blank" class="project-link">Посмотреть код</a>
             </div>
-        </div>
+        </article>
+
+        <!-- Карточка 4: CRM для автосервиса -->
+        <article class="project-card">
+            <img src="images/crm-auto.jpg" alt="CRM для автосервиса" class="project-image">
+            <div class="project-content">
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">CRM</span>
+                </div>
+                <h3 class="project-title">🚗 CRM для автосервиса</h3>
+                <p class="project-desc">Система автоматизации для СТО. Замена бумажных журналов, ведение базы заявок, учет выполненных работ и распределение задач.</p>
+                <a href="https://github.com/9zyf62hv6v-jpg/CRM-avtoservis.git" target="_blank" class="project-link">Посмотреть код</a>
+            </div>
+        </article>
+
+        <!-- Карточка 5: Сайт нотариуса -->
+        <article class="project-card">
+            <img src="images/notary-site.jpg" alt="Сайт-визитка нотариуса" class="project-image">
+            <div class="project-content">
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+                <h3 class="project-title">⚖️ Сайт-визитка для нотариуса</h3>
+                <p class="project-desc">Представительский лендинг для частного специалиста. Понятная структура услуг, адаптивная верстка и формы обратной связи.</p>
+                <!--  -->
+                <a href="ССЫЛКА" target="_blank" class="project-link">Посмотреть код</a>
+            </div>
+        </article>
 
     </div>
 
@@ -270,88 +298,5 @@
 
 </div>
 
-<section class="projects-section">
-    <h2>Мои ключевые проекты</h2>
-    
-    <div class="projects-grid">
-
-        <!-- Карточка 1: ИИ-Ассистент -->
-        <article class="project-card">
-            <img src="images/ai-notary.jpg" alt="ИИ-Ассистент для нотариуса">
-            <div class="project-content">
-                <h3>ИИ-Ассистент для нотариуса</h3>
-                <p>Умное веб-приложение для автоматизации юридической рутины. Генерация документов по текстовому описанию с помощью нейросетей и расчет госпошлин.</p>
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>AI</span>
-                    <span>PostgreSQL</span>
-                </div>
-                <a href="https://github.com/9zyf62hv6v-jpg/notary_ai" target="_blank" class="btn">Посмотреть код</a>
-            </div>
-        </article>
-
-        <!-- Карточка 2: Дашборд Логистики -->
-        <article class="project-card">
-            <img src="images/logistics.jpg" alt="Дашборд Моя Логистика">
-            <div class="project-content">
-                <h3>Дашборд «Моя Логистика»</h3>
-                <p>Система управления процессами пивоваренного завода. Учет клиентов, заказов, водителей, маршрутов и возвратной тары в реальном времени.</p>
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>JS</span>
-                    <span>SQLite</span>
-                </div>
-                <a href="https://github.com/9zyf62hv6v-jpg/---_---------" target="_blank" class="btn">Посмотреть код</a>
-            </div>
-        </article>
-
-        <!-- Карточка 3: Планировщик Brew Clone -->
-        <article class="project-card">
-            <img src="images/brew-planner.jpg" alt="Веб-планировщик Brew Clone">
-            <div class="project-content">
-                <h3>Веб-планировщик Brew Clone</h3>
-                <p>Сервис для планирования производственных процессов. Интерактивная диаграмма Ганта, расчет ресурсов и управление складскими остатками.</p>
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>JavaScript</span>
-                    <span>Адаптив</span>
-                </div>
-                <a href="https://github.com/9zyf62hv6v-jpg/brew-clone" target="_blank" class="btn">Посмотреть код</a>
-            </div>
-        </article>
-
-        <!-- Карточка 4: CRM для автосервиса -->
-        <article class="project-card">
-            <img src="images/crm-auto.jpg" alt="CRM для автосервиса">
-            <div class="project-content">
-                <h3>CRM для автосервиса</h3>
-                <p>Система автоматизации для СТО. Замена бумажных журналов, ведение базы заявок, учет выполненных работ и распределение задач.</p>
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>MySQL</span>
-                    <span>CRM</span>
-                </div>
-                <a href="https://github.com/9zyf62hv6v-jpg/CRM-avtoservis.git" target="_blank" class="btn">Посмотреть код</a>
-            </div>
-        </article>
-
-        <!-- Карточка 5: Сайт нотариуса -->
-        <article class="project-card">
-            <img src="images/notary-site.jpg" alt="Сайт-визитка нотариуса">
-            <div class="project-content">
-                <h3>Сайт-визитка для нотариуса</h3>
-                <p>Представительский лендинг для частного специалиста. Понятная структура услуг, адаптивная верстка и формы обратной связи.</p>
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>HTML/CSS</span>
-                    <span>UI/UX</span>
-                </div>
-                <a href="ССЫЛКА" target="_blank" class="btn">Посмотреть код</a>
-            </div>
-        </article>
-
-    </div>
-</section>
-<!-- Конец блока с новыми проектами -->
 </body>
 </html>
